@@ -69,6 +69,17 @@
               </div>
     </form>
     
+<!--    Setup connectivity between controllers and services-->
+    <div class="container" ng-controller="BasicController">
+      <div class="row row-content">
+        <div class="col-xs-3">
+          <p>{{controllerInfo}}</p>
+          
+          <p>{{serviceInfo}}</p>
+        </div>
+      </div>
+    </div>
+    
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
 <!--
@@ -86,6 +97,8 @@
   <!-- build:js scripts/main.js -->
     <script src="../node_modules/angular/angular.min.js"></script>
     <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/controllers.js"></script>
+    <script src="scripts/services/services.js"></script>
 
   <!-- endbuild -->
     
