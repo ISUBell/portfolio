@@ -80,6 +80,11 @@
       </div>
     </div>
     
+<!--    setup connection to a view-->
+    <div ui-view="header"></div>
+    
+    <ui-view></ui-view>
+    
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
 <!--
@@ -96,9 +101,11 @@
 
   <!-- build:js scripts/main.js -->
     <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="../node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/controllers.js"></script>
     <script src="scripts/services/services.js"></script>
+    
 
   <!-- endbuild -->
     
