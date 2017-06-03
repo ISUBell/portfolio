@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "test",
+    "lint": "jshint app/.",
     "dev": "lite-server"
   },
   "repository": {
@@ -29,6 +29,8 @@
     "bootstrap": "~3.3.7"
   },
   "devDependencies": {
-    "@angular/cli": "^1.1.0"
+    "@angular/cli": "^1.1.0",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1"
   }
 }

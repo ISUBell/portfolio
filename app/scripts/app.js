@@ -28,7 +28,7 @@ angular.module('portfolioApp', ['ui.router'])
         templateUrl: '../views/about.html'
       }
     }
-  })
+  });
   
   $urlRouterProvider.otherwise('/');
   
