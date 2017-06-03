@@ -31,6 +31,7 @@
   "devDependencies": {
     "@angular/cli": "^1.1.0",
     "jshint": "^2.9.4",
-    "jshint-stylish": "^2.2.1"
+    "jshint-stylish": "^2.2.1",
+    "lite-server": "^2.3.0"
   }
 }
