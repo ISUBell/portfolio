@@ -35,7 +35,7 @@
                         <span class="glyphicon glyphicon-home"
                          aria-hidden="true"></span> Home</a></li>
                   
-                    <li><a ui-sref="app.aboutus">
+                    <li><a ui-sref="app.about">
                         <span class="glyphicon glyphicon-info-sign"
                          aria-hidden="true"></span> About</a></li>
                   
@@ -82,8 +82,11 @@
     
 <!--    setup connection to a view-->
     <div ui-view="header"></div>
-    
+    <div ui-view="content"></div>
+
+       
     <ui-view></ui-view>
+
     
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -100,7 +103,7 @@
 -->
 
   <!-- build:js scripts/main.js -->
-    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="/../node_modules/angular/angular.min.js"></script>
     <script src="../node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/controllers.js"></script>
