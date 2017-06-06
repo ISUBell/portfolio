@@ -8,7 +8,7 @@ angular.module('portfolioApp', ['ui.router'])
     url: '/',
     views: {
       'header': {
-        template: '<p>AppState header template</p>'
+        templateUrl: '../views/header.html'
       },
       'content': {
         template: '<p>Appstate content template from app.js</p>'
