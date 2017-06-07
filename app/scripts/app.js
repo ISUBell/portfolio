@@ -30,6 +30,24 @@ angular.module('portfolioApp', ['ui.router'])
     }
   });
   
+  $stateProvider.state('app.projects', {
+    url: 'projects',
+    views: {
+      'content@': {
+        templateUrl: '../views/projects.html'
+      }
+    }
+  });
+  
+    $stateProvider.state('app.contact', {
+    url: 'contact',
+    views: {
+      'content@': {
+        templateUrl: '../views/contact.html'
+      }
+    }
+  });
+  
   $urlRouterProvider.otherwise('/');
   
 });
