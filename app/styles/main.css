@@ -1,10 +1,15 @@
 .blueback {
-  background: #0084bc;
+  background: #396aba;
   color: #ffffff;
 }
 
+.contentback {
+    background: #dbe8ff;
+}
+
 .mainback {
-    background: #c9d9e0;
+
+    background: #c7ccd6;
     color: #000000;
 }
 
@@ -13,7 +18,9 @@
 }
 
 .pad40 {
-  margin:40px;
+  margin-top:40px;
+  margin-right:10px;
+  margin-bottom:40px;
 }
 
 img {
