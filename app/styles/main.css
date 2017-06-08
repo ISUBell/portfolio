@@ -5,9 +5,22 @@
 
 .mainback {
     background: #c9d9e0;
-    color: #ffffff;
+    color: #000000;
 }
 
 .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.pad40 {
+  margin:40px;
+}
+
+img {
+  padding:1px;
+  border:1px solid #021a40;
+}
+
+.whitefont > li > a {
   color: #ffffff;
 }

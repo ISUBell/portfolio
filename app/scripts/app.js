@@ -11,7 +11,7 @@ angular.module('portfolioApp', ['ui.router'])
         templateUrl: '../views/header.html'
       },
       'content': {
-        template: '<p>Appstate content template from app.js</p>'
+        templateUrl: '../views/home.html'
       },
       'footer': {
         templateUrl: '../views/footer.html'
