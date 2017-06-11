@@ -9,17 +9,20 @@
       <ul class="nav nav-tabs" role="tablist">
         <li role="presentation" ng-class="{active:isSelected(1)}"><a ng-click="select(1)" aria-controls="html, css, javascript" role="tab">HTML, CSS, Javascript</a></li>
         <li role="presentation" ng-class="{active:isSelected(2)}"><a ng-click="select(2)" aria-controls="java" role="tab">Java</a></li>
-        <li role="presentation" ng-class="{active:isSelected(3)}"><a ng-click="select(3)" aria-controls="python" role="tab">Python</a></li>
+        <li role="presentation" ng-class="{active:isSelected(4)}"><a ng-click="select(4)" aria-controls="matlab" role="tab">Matlab</a></li>
       </ul>
 
       <div class="tab-content">
         <ul class="media-list tab-pane fade in active">
           <li class="media" ng-repeat="project in projects | filter:filtText">
             <div class="media-left media-middle">
-              <a href="#">pic?</a>
+              <a href={{project.image}}>
+                <img class="media-object img-thumbnail" src={{project.image}}>
+              </a>
             </div>
             <div class="media-body">
               <h2 class="media-heading">{{project.name}}</h2>
+              <b>Github: <a href={{project.github}}>{{project.github}}</a></b>
               <p>{{project.description}}</p>
             </div>
           </li>

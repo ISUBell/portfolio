@@ -17,6 +17,10 @@
   color: #ffffff;
 }
 
+.media > div > a > img {
+  height: 125px;
+}
+
 .pad40 {
   margin-top:40px;
   margin-right:10px;
