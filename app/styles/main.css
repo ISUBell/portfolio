@@ -4,14 +4,13 @@
 }
 
 .contentback {
-    background: #dbe8ff;
+  background: #dbe8ff;
 
 }
 
 .mainback {
-
-    background: #c7ccd6;
-    color: #000000;
+  background: #c7ccd6;
+  color: #000000;
 }
 
 .navbar-nav > li > a {
@@ -57,7 +56,11 @@
 }
 
 .container {
-  width:100%;
+  width: auto;
+}
+
+body {
+  height:100%;
 }
 
 .row {
@@ -65,13 +68,5 @@
 }
 
 .fill-75 {
-  height:75vh;
-}
-
-.fill-10 {
-  height:10vh;
-}
-
-.fill-15 {
-  height:15vh;
+  min-height:75vh;
 }

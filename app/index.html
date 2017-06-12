@@ -1,124 +1,50 @@
 <!doctype html>
 <html lang="en" ng-app="portfolioApp">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- -->
-    
-    <title>Portfolio (Michael Bell)</title>
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-  </head>
-  
-  <body class="mainback">
-    <!--[if lte IE 8]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-      
-      <!--    setup connection to a view-->
-    <div ui-view="header"></div>
-    <div ui-view="content"></div>
-    <div ui-view="footer"></div>
-<!--
-       
-    <ui-view></ui-view>
--->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- -->
 
-    <!-- Add your site or application content here -->
-<!--
-    <div class="container">
-      <div class="row row-content">
-        <div class="col-xs-12 blueback">
-          <h3>Index.html file being viewed</h3>
-          <p>Your name is: {{userComment.author}}</p>
-        </div>
-        <nav class="navbar">
-        <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a ui-sref="app">
-                        <span class="glyphicon glyphicon-home"
-                         aria-hidden="true"></span> Home</a></li>
-                  
-                    <li><a ui-sref="app.about">
-                        <span class="glyphicon glyphicon-info-sign"
-                         aria-hidden="true"></span> About</a></li>
-                  
-                    <li><a ui-sref="app.menu">
-                         <span class="glyphicon glyphicon-list-alt"
-                         aria-hidden="true"></span> 
-                         Menu</a></li>
-                  
-                     <li><a ui-sref="app.contactus">
-                     <i class="fa fa-envelope-o"></i> Contact</a></li>
-                </ul>
-            </div>
-          </nav>
-      </div>
-    </div>
--->
-    
-<!--    Setup basic connectivity for data binding-->
-<!--
-    <form class="form-horizontal" name="commentForm" ng-submit="submitComment()">
-
-              <div class="form-group">
-                <label for="authorname" class="control-label col-sm-2">Your Name</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" placeholder="Enter your name" id="author" name="author" ng-model="userComment.author">
-                </div>
-              </div>
-
-              <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
-                  <button type="submit" class="btn btn-primary">Submit Comment</button>
-                </div>
-              </div>
-    </form>
--->
-    
-<!--    Setup connectivity between controllers and services-->
-<!--
-    <div class="container" ng-controller="BasicController">
-      <div class="row row-content">
-        <div class="col-xs-3">
-          <p>{{controllerInfo}}</p>
-          
-          <p>{{serviceInfo}}</p>
-        </div>
-      </div>
-    </div>
--->
-    
-
-    
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-<!--
-     <script>
-       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
-       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
-       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
-       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-       ga('create', 'UA-XXXXX-X');
-       ga('send', 'pageview');
-    </script>
--->
-
-  <!-- build:js scripts/main.js -->
-    <script src="/../node_modules/angular/angular.min.js"></script>
-    <script src="../node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
-    <script src="scripts/app.js"></script>
-    <script src="scripts/controllers/controllers.js"></script>
-    <script src="scripts/services/services.js"></script>
+  <title>Portfolio (Michael Bell)</title>
+  <!-- build:css(.tmp) styles/main.css -->
+  <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
+</head>
+
+<body class="mainback">
+  <!--[if lte IE 8]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <!--    setup connection to a view-->
+  <div ui-view="header"></div>
+  <div ui-view="content"></div>
+  <div ui-view="footer"></div>
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+<!--
+   <script>
+     !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+     (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+     r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+     }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+     ga('create', 'UA-XXXXX-X');
+     ga('send', 'pageview');
+  </script>
+-->
+
+<!-- build:js scripts/main.js -->
+  <script src="/../node_modules/angular/angular.min.js"></script>
+  <script src="../node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="scripts/controllers/controllers.js"></script>
+  <script src="scripts/services/services.js"></script>
+<!-- endbuild -->
     
 </body>
 </html>
