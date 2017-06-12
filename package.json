@@ -28,7 +28,8 @@
     "@uirouter/angularjs": "~1.0.3",
     "angular": "~1.6.4",
     "bootstrap": "~3.3.7",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "serve-static": "^1.12.3"
   },
   "devDependencies": {
     "jshint": "^2.9.4",
