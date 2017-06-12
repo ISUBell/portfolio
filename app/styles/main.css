@@ -5,6 +5,7 @@
 
 .contentback {
     background: #dbe8ff;
+
 }
 
 .mainback {
@@ -42,6 +43,11 @@
   margin-bottom:40px;
 }
 
+.pad60 {
+  margin-top:60px;
+  margin-bottom:60px;
+}
+
 .whitefont > li > a {
   color: #ffffff;
 }
@@ -56,4 +62,16 @@
 
 .row {
   margin-left: 10%;
+}
+
+.fill-75 {
+  height:75vh;
+}
+
+.fill-10 {
+  height:10vh;
+}
+
+.fill-15 {
+  height:15vh;
 }
