@@ -18,7 +18,7 @@ angular.module('portfolioApp')
       },
       {
         name:'NodeJS Chat App',
-        image: '../images/chatappscreen.png',
+        image: '../images/chatappscreen.PNG',
         category:'html',
         description: 'NodeJS application that features a live chatroom. By following the below Heroku link you can access a live version of the application',
         website: 'https://guarded-caverns-81226.herokuapp.com/',
@@ -34,7 +34,7 @@ angular.module('portfolioApp')
       },
       {
         name: 'Sports Statistics Database',
-        image: '../images/main_page.png',
+        image: '../images/main_page.PNG',
         category: 'java',
         description: 'Built using a variety of modern tools, including Spring MVC, Hibernate, JDBC, Maven, and others. Parses college basketball statistics from a web resource into a cloud SQL database which is then displayed to the user.',
         github:'https://github.com/ISUBell/BasketballStatsDatabase'
