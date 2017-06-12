@@ -2,13 +2,14 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Personal website of Michael Bell",
-  "main": "index.js",
+  "main": "server.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "lint": "jshint app/.",
-    "dev": "lite-server"
+    "dev": "lite-server",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -27,11 +28,9 @@
     "@uirouter/angularjs": "~1.0.3",
     "angular": "~1.6.4",
     "bootstrap": "~3.3.7",
-    "express": "^4.15.3",
-    "gzippo": "^0.2.0"
+    "express": "^4.15.3"
   },
   "devDependencies": {
-    "@angular/cli": "^1.1.0",
     "jshint": "^2.9.4",
     "jshint-stylish": "^2.2.1",
     "lite-server": "^2.3.0"
