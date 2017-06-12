@@ -1,10 +1,14 @@
+.gradient {
+	background: linear-gradient(#75bd25, #343a44); /* Standard syntax */
+}
+
 .blueback {
-  background: #396aba;
+  background: linear-gradient(#396aba, #4d5f7c);
   color: #ffffff;
 }
 
 .contentback {
-  background: #dbe8ff;
+  background: linear-gradient(to right bottom, #dbe8ff, #f4f8ff);
 
 }
 
