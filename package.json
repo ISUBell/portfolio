@@ -8,7 +8,8 @@
   },
   "scripts": {
     "lint": "jshint app/.",
-    "dev": "lite-server"
+    "dev": "lite-server",
+    "start": "lite-server"
   },
   "repository": {
     "type": "git",
