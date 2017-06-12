@@ -18,7 +18,7 @@ angular.module('portfolioApp')
       },
       {
         name:'NodeJS Chat App',
-        image:'../images/chatappscreen.png',
+        image: '../images/chatappscreen.png',
         category:'html',
         description: 'NodeJS application that features a live chatroom. By following the below Heroku link you can access a live version of the application',
         website: 'https://guarded-caverns-81226.herokuapp.com/',
