@@ -27,7 +27,8 @@
   "dependencies": {
     "angular": "~1.6.4",
     "@uirouter/angularjs": "~1.0.3",
-    "bootstrap": "~3.3.7"
+    "bootstrap": "~3.3.7",
+    "lite-server": "~2.3.0"
   },
   "devDependencies": {
     "@angular/cli": "^1.1.0",
