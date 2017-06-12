@@ -12,18 +12,19 @@
         <li role="presentation" ng-class="{active:isSelected(4)}"><a ng-click="select(4)" aria-controls="matlab" role="tab">Matlab</a></li>
       </ul>
 
-      <div class="tab-content">
+      <div class="tab-content top-buffer">
         <ul class="media-list tab-pane fade in active">
           <li class="media" ng-repeat="project in projects | filter:filtText">
-            <div class="media-left media-middle">
+            <div class="media-left">
               <a href={{project.image}}>
-                <img class="media-object img-thumbnail" src={{project.image}}>
+                <img id="projectimg" class="media-object img-thumbnail" src={{project.image}}>
               </a>
             </div>
             <div class="media-body">
               <h2 class="media-heading">{{project.name}}</h2>
               <b>Github: <a href={{project.github}}>{{project.github}}</a></b>
               <p>{{project.description}}</p>
+              <p>{{project.website}}</p>
             </div>
           </li>
         </ul>

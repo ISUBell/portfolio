@@ -17,14 +17,15 @@ angular.module('portfolioApp')
         github:'https://github.com/ISUBell/portfolio'
       },
       {
-        name:'Chat app',
-        image:'',
+        name:'NodeJS Chat App',
+        image:'../images/chatappscreen.png',
         category:'html',
-        description: 'NodeJS application that features a live chatroom. By following the below link you can access a live version of the application',
-        github: ''
+        description: 'NodeJS application that features a live chatroom. By following the below Heroku link you can access a live version of the application',
+        website: 'https://guarded-caverns-81226.herokuapp.com/',
+        github: 'https://github.com/ISUBell/node-chat-app'
       },
       {
-        name:'Todo app',
+        name:'Todo App API',
         image: "../images/GETtodos.PNG",
         category: 'html',
         description: 'NodeJS API that will perform CRUD operations on a NoSQL database. This takes the form of various todo\'s, that are grouped by registered users. The login for each user uses an encrypted and hashed password. This API is currently live on Heroku, and can be accessed via Postman or a similar method. The screenshots show a variety of calls and responses made to the live API. For testing out the API, make calls to the below website.',
@@ -36,7 +37,7 @@ angular.module('portfolioApp')
         image: '../images/main page.png',
         category: 'java',
         description: 'Built using a variety of modern tools, including Spring MVC, Hibernate, JDBC, Maven, and others. Parses college basketball statistics from a web resource into a cloud SQL database which is then displayed to the user.',
-        github:'https://github.com/ISUBell/SportsTeamStatisticsDatabase'
+        github:'https://github.com/ISUBell/BasketballStatsDatabase'
       }
     ];
     
