@@ -1,6 +1,10 @@
 var express = require('express');
 var app = express();
+var angular = require('angular')
+require('angulartics') // until we package it as a CommonJS module
+var googleanalytics = require('angulartics-google-analytics')
 
+angular.module('myApp', ['angulartics', googleanalytics])
 
 // set the port of our application
 // process.env.PORT lets the port be set by Heroku
