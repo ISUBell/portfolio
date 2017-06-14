@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var angular = require('angular')
-require('angulartics') // until we package it as a CommonJS module
+require('angulartics')
 var googleanalytics = require('angulartics-google-analytics')
 
 angular.module('myApp', ['angulartics', googleanalytics])
